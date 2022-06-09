@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Maru - Documentation</title>
+
+	<link rel="stylesheet" href="https://eightanddouble.github.io/maru/assets/build/css/vendor.css">
+	<link rel="stylesheet" href="https://eightanddouble.github.io/maru/assets/build/css/style.css">
+
+</head>
+
+<body data-spy="scroll" data-target="#toc">
+
+    <section class="py-0">
+        <div class="container-fluid">
+            <div class="row justify-content-between">
+
+				<aside class="col-lg-3 col-xxl-2 p-3 doc-sidebar">
+	<div class="sticky">
+		<nav class="navbar navbar-vertical navbar-expand-lg navbar-light">
+			<div>
+				<a href="/docs" class="navbar-brand"><img src="/assets/images/logo/logo-default.svg"
+						alt="Logo"><span class="badge badge-green ml-2">0.0.1</span></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse"
+					data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+					aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+			</div>
+
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul id="page-nav" class="nav flex-column nav-vertical-2">
+					<li class="nav-item">
+						<a 
+						class="nav-link " 
+						href="/docs/getting-started">
+								Getting Started
+						</a>
+					</li>
+					<li class="nav-item">
+						<a 
+						class="nav-link active" 
+						href="/docs/installation-guide">
+								Installation Guide
+						</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+</aside>
+				<article class="col-lg-9 col-xxl-10 doc-content">
+
+					<div class="row">
+	<div class="col">
+		<div class="doc-content-header">
+			<div class="row align-items-center">
+				<div class="col">
+					<nav aria-label="breadcrumb" class="align-items-center">
+						<a href="/" class="breadcrumb-back" title="Back"></a>
+						<ol class="breadcrumb d-none d-lg-inline-flex">
+							<li class="breadcrumb-item"><a href="/">Home</a></li>
+							<li class="breadcrumb-item active" aria-current="page">Docs</li>
+						</ol>
+					</nav>
+				</div>
+				<div class="col text-right">
+					<a href="https://www.google.com/" class="btn btn-sm btn-primary btn-rounded" target="_blank">Buy Now</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+					<div class="row justify-content-between doc-content-body">
+
+							
+		<article class="col-md-9 col-xxl-8">
+
+			<h1 class="h2 font-weight-light">Installation Guide</h1>
+
+			<section id="starting-installation">
+				<div class="mb-4">
+					<h2 class="section-title-2">Installing on a server/localhost <a data-scroll href="#starting-installation" class="anchor"
+							data-toggle="tooltip" data-placement="top" title="Copy URL"><i
+								class="icon-hash"></i></a></h2>
+					<p>This is a guide to help you install the Maru application on a server/local development environment. The process involved is almost identical if not for the small changes that the environment itself requires to be done and not the application.</p>
+				</div>
+
+				<div class="mb-4">
+					<h4 class=""><small class="">1: </small>Copy File(s)</h4>
+
+					<p>Once you have purchased Maru, and extracted the contents of the downloaded file then you will be able to find the zip file named <code>dist.zip</code>. This is the file that will be needed now.</p>
+	
+					<p>To install on a server, just copy the <code>dist.zip</code> file on to the public hosting space of the server. This should mostly be the <code>public_html</code> directory of your server. Once you have copied, make sure to set the root directory of your domain to <code>public_html/public</code> directory. Making this setting is very important for the proper functioning of the application.</p>
+				</div>
+
+				<div class="mb-4">
+					<h4 class=""><small class="">2: </small>Create Database</h4>
+	
+					<p>Your hosting platform should have some form of a functionality to create a database. Use that wizard/functionality to create a new database. This has to be a new database and an empty one for proper installation and functioning of the application. Once the database is created, please make a note of the database's name somewhere safe as it will be needed down the line.</p>
+				</div>
+				
+				<div class="mb-4">
+					<h4 class=""><small class="">3: </small>Create Database User</h4>
+	
+					<p>After a database is created, a database user with full previliges to the newly created database needs to be created, if one does not exists. Again, make a note of the database user's username and password for now as it will be required when installing the application.</p>
+				</div>
+
+				<div class="mb-4">
+					<h4 class=""><small class="">4: </small>Proceeding with the installer</h4>
+	
+					<p>That is all the tedious work needed! Now, open your browser and open your domain. The GUI installer will automatically open. Proceed with entering the required information as like explained further below and the installation will be done in a breeze.</p>
+				</div>
+				
+			</section>
+
+			<section id="purchase-authentication">
+				<div class="mb-4">
+					<h2 class="section-title-2">Purchase Authentication <a data-scroll href="#purchase-authentication" class="anchor"
+							data-toggle="tooltip" data-placement="top" title="Copy URL"><i
+								class="icon-hash"></i></a></h2>
+
+					<p class="mb-3">Provide the Envato username you used to purchase Maru and the purchase code you got along with the purchase. You can use <a href="https://help.market.envato.com/hc/en-us/articles/202822600-Where-Is-My-Purchase-Code-" target="_blank">this </a> as a guide to get your purchase code. </p>
+				</div>
+
+				<figure class="figure">
+					<img src="/assets/images/installer/step-1.png" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+					<figcaption class="figure-caption">Envato Purchase Details</figcaption>
+				</figure>
+			</section>
+
+			<section id="server-requirements">
+				<div class="mb-4">
+					<h2 class="section-title-2">Server Requirements <a data-scroll href="#server-requirements" class="anchor"
+							data-toggle="tooltip" data-placement="top" title="Copy URL"><i
+								class="icon-hash"></i></a></h2>
+
+					<p class="mb-3">This is an automated check to make sure the server satisfies the requirements of the application and also has all the requires PHP/Apache extensions to function properly. If some error is shown, kindly fix the errors on the server side and refresh the page to make sure all options are checked to be present. All the extensions needs to be available to proceed to the next step.</p>
+				</div>
+
+				<figure class="figure">
+					<img src="/assets/images/installer/step-2.png" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+					<figcaption class="figure-caption">Server Requirements</figcaption>
+				</figure>
+			</section>
+
+			<section id="access-requirements">
+				<div class="mb-4">
+					<h2 class="section-title-2">Access Requirements <a data-scroll href="#access-requirements" class="anchor"
+							data-toggle="tooltip" data-placement="top" title="Copy URL"><i
+								class="icon-hash"></i></a></h2>
+
+					<p class="mb-3">This is again an automated check to make sure the application has the appropriate read/write access to specific locations of the filesystem for porper functioning. If any errors are shown, make sure to fix them and refresh the page. All the checks needs to be passed for the installer to be able to proceed to the next step.</p>
+				</div>
+
+				<figure class="figure">
+					<img src="/assets/images/installer/step-3.png" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+					<figcaption class="figure-caption">Access Requirements</figcaption>
+				</figure>
+			</section>
+
+			<section id="database-details">
+				<div class="mb-4">
+					<h2 class="section-title-2">Database Details <a data-scroll href="#database-details" class="anchor"
+							data-toggle="tooltip" data-placement="top" title="Copy URL"><i
+								class="icon-hash"></i></a></h2>
+
+					<p class="mb-3">This is where to enter the details of the database and the database user that you would have created and noted down previously. Some details on the form are pre-filled which are mostly not required to be changed. But if by any chances your environment needs a specific change of these settings, please make sure the correct values are entered in the form before proceeding.</p>
+				</div>
+
+				<figure class="figure mb-3">
+					<img src="/assets/images/installer/step-4.png" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+					<figcaption class="figure-caption">Database Details</figcaption>
+				</figure>
+
+				<p class="mt-3"> <b>NOTE:</b> As of now, the application setup can only be supported by a relational database and the setup is made for a MySQL connection. So, it cannot be changed.</p>
+			</section>
+			
+			<section id="super-admin-details">
+				<div class="mb-4">
+					<h2 class="section-title-2">Super Admin Details <a data-scroll href="#super-admin-details" class="anchor"
+							data-toggle="tooltip" data-placement="top" title="Copy URL"><i
+								class="icon-hash"></i></a></h2>
+
+					<p class="mb-3">Every application needs an admin and its time to create one for ours too. Enter the email of the admin, and the required password. This password and the username of <code>administrator</code> will be used for the Super-Admin login to the application. So please use a secure and a rememberable password.</p>
+				</div>
+
+				<figure class="figure mb-3">
+					<img src="/assets/images/installer/step-5.png" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+					<figcaption class="figure-caption">Super Admin Details</figcaption>
+				</figure>
+
+				<p class="mt-3"> <b>NOTE:</b> The Super-Admin can only take the name as <code>Administrator</code> and the username <code>administrator</code>. Also, as of this release the super-admin's password cannot be changed. The provision to do that will be made available in future releases.</p>
+			</section>
+
+
+			<section id="installing">
+				<div class="mb-4">
+					<h2 class="section-title-2">Installing <a data-scroll href="#installing" class="anchor"
+							data-toggle="tooltip" data-placement="top" title="Copy URL"><i
+								class="icon-hash"></i></a></h2>
+
+					<p class="mb-3">Once you have entered the data in the previous step, and clicked the <code>INSTALL </code> button, it is going to take considerable time to proceed to the next step. Please <b>DO NOT</b> click on the refresh or anywhere on the application window as this might make the installation faulty and the application might not work properly. </p>
+				</div>
+			</section>
+
+			<section id="finalising-installation">
+				<div class="mb-4">
+					<h2 class="section-title-2">Finalising Installation <a data-scroll href="#finalising-installation" class="anchor"
+							data-toggle="tooltip" data-placement="top" title="Copy URL"><i
+								class="icon-hash"></i></a></h2>
+
+					<p class="mb-3">As soon as the previous step is completed, you will be moved to final step of the installtion wizard. This is again an automated step to make sure everything was done right. This should all be in green and nothing needs to be done. Just click on the button at the bottom to take you to login page and you can use the username <code>administrator</code> and the perviously entered password to make the first login into the application.</p>
+				</div>
+
+				<figure class="figure mb-3">
+					<img src="/assets/images/installer/step-7.png" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+					<figcaption class="figure-caption">Finalising Installation</figcaption>
+				</figure>
+			</section>
+
+			<section id="restarting-installation">
+				<div class="mb-4">
+					<h2 class="section-title-2">Restarting Installation <a data-scroll href="#restarting-installation" class="anchor"
+							data-toggle="tooltip" data-placement="top" title="Copy URL"><i
+								class="icon-hash"></i></a></h2>
+
+					<p class="mb-3">Before clicking the button to take you to your login page, if at any step of the installation wizard you want to restart the installation, enter the url, <code>https://{your-domain}/installer/step/0</code> manually in the browser. Once you visit the login page from the installtion wizard's last step, you have to remove all the application files manually and redo the installation process.</p>
+				</div>
+			</section>
+
+		</article>
+
+		<aside class="col-md-3 col-xxl-3 d-none d-md-block">
+			<div class="sticky">
+				<ul id="toc" class="nav flex-column toc">
+					<li class="nav-item">
+						<a data-scroll class="nav-link" href="#starting-installation">Starting Installation</a>
+					</li>
+					<li class="nav-item">
+						<a data-scroll class="nav-link" href="#purchase-authentication">Purchase Authentication</a>
+					</li>
+					<li class="nav-item">
+						<a data-scroll class="nav-link" href="#server-requirements">Server Requirements</a>
+					</li>
+					<li class="nav-item">
+						<a data-scroll class="nav-link" href="#access-requirements">Access Requirements</a>
+					</li>
+					<li class="nav-item">
+						<a data-scroll class="nav-link" href="#database-details">Database Details</a>
+					</li>
+					<li class="nav-item">
+						<a data-scroll class="nav-link" href="#super-admin-details">Super Admin Details</a>
+					</li>
+					<li class="nav-item">
+						<a data-scroll class="nav-link" href="#installing">Installing</a>
+					</li>
+					<li class="nav-item">
+						<a data-scroll class="nav-link" href="#finalising-installation">Finalising Installation</a>
+					</li>
+					<li class="nav-item">
+						<a data-scroll class="nav-link" href="#restarting-installation">Restarting Installation</a>
+					</li>
+				</ul>
+			</div>
+		</aside>
+
+
+					</div>
+
+				</article>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark">
+        <div class="container">
+            <div class="row gutter-3">
+                <div class="col-12 col-md-2">
+                    <a href=""><img src="/assets/images/logo/logo-default.svg" alt="Logo"></a>
+                </div>
+                <div class="col-12 col-md-6 text-white">
+                    <p class="mb-4">Maru is a no-frills Pharamacy Management application written with novice users in mind yet providing a slew of fully-featured functionalities. Maru supports Indian GST system and works based upon that.</p>
+                    <div class="row">
+                        <div class="col">
+                            <ul class="list-group list-group-minimal">
+                                <li class="list-group-item"><a href="" class="link">Product Help</a></li>
+                                <li class="list-group-item"><a href="" class="link">Training Videos</a></li>
+                                <li class="list-group-item"><a href="" class="link">Integrations</a></li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <ul class="list-group list-group-minimal">
+                                <li class="list-group-item"><a href="" class="link">REST API</a></li>
+                                <li class="list-group-item"><a href="" class="link">Corporate</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-2 ml-auto text-md-right">
+                    <div class="dropdown">
+                        <button class="btn btn-inverted btn-block dropdown-toggle" type="button" id="dropdownMenuButton"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            English
+                        </button>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+	<script defer src="https://eightanddouble.github.io/maru/assets/build/js/vendor.js"></script>
+	<script defer src="https://eightanddouble.github.io/maru/assets/build/js/app.js"></script>
+
+</body>
+
+</html>
